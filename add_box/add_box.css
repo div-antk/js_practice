@@ -12,3 +12,11 @@ body{
   background:#ddd;
   margin:0 auto 1rem;
  }
+
+ #boxes div:hover{
+   background: yellow;
+ }
+
+ #addbutton:hover{
+  background: yellow;
+ }
