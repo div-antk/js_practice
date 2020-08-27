@@ -1,15 +1,23 @@
-document.getElementById("menu").addEventListener("mouseover", function(){
-  document.getElementById("dropmenu").style.display = "block";
+document.getElementById("menu1").addEventListener("mouseover", function(){
+  document.getElementById("dropmenu1").style.display = "block";
 }, false);
 
-document.getElementById("menu").addEventListener("mouseout", function(){
-  document.getElementById("dropmenu").style.display = "none";
+document.getElementById("menu1").addEventListener("mouseout", function(){
+  document.getElementById("dropmenu1").style.display = "none";
 }, false);
 
-document.getElementById("ex_out").addEventListener("mouseover", function(){
-	document.getElementById("ex_menu").style.display = 'block';
+document.getElementById("menu2").addEventListener("mouseover", function(){
+  document.getElementById("dropmenu2").style.display = "block";
 }, false);
 
-document.getElementById("ex_out").addEventListener("mouseout", function(){
-	document.getElementById("ex_menu").style.display = 'none';
+document.getElementById("menu2").addEventListener("mouseout", function(){
+  document.getElementById("dropmenu2").style.display = "none";
+}, false);
+
+document.getElementById("menu3").addEventListener("mouseover", function(){
+  document.getElementById("dropmenu3").style.display = "block";
+}, false);
+
+document.getElementById("menu3").addEventListener("mouseout", function(){
+  document.getElementById("dropmenu3").style.display = "none";
 }, false);

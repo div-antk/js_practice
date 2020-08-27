@@ -1,13 +1,63 @@
-#menu {
-  width: 200px;
-  background: #fcc;
+.menus {
+  display: inline-block;
+
 }
 
-#dropmenu {
+#menu1 {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background: #fcc;
+  border: solid;
+  border-color: grey;
+  margin-bottom: 100px;
+}
+
+#menu2 {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background: #fcc;
+  border: solid;
+  border-color: grey;
+  margin-bottom: 20px;
+  
+}
+
+#menu3 {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background: #fcc;
+  border: solid;
+  border-color: grey;
+  margin-bottom: 20px;
+}
+
+#dropmenu1 {
   display: none;
-  top: 0px;
-  margin: 0px;
+  margin-top: 16px;
   background: burlywood;
   /* height: 100px; */
   width: 200px;
+}
+
+#dropmenu2 {
+  display: none;
+  margin-top: 16px;
+  background: burlywood;
+  /* height: 100px; */
+  width: 200px;
+}
+
+#dropmenu3 {
+  display: none;
+  margin-top: 16px;
+  background: burlywood;
+  /* height: 100px; */
+  width: 200px;
+}
+
+.main {
+  position:absolute;
 }
