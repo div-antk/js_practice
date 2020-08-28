@@ -1,63 +1,47 @@
 .menus {
-  display: inline-block;
-
+  /* display: inline-block; */
 }
 
 #menu1 {
-  display: flex;
   width: 100px;
   height: 40px;
   background: #fcc;
-  border: solid;
-  border-color: grey;
-  margin-bottom: 100px;
+
 }
 
 #menu2 {
-  display: flex;
   width: 100px;
   height: 40px;
-  background: #fcc;
-  border: solid;
-  border-color: grey;
-  margin-bottom: 20px;
-  
+  background: rgb(255, 167, 167);
+
 }
 
 #menu3 {
-  display: flex;
   width: 100px;
   height: 40px;
-  background: #fcc;
-  border: solid;
-  border-color: grey;
-  margin-bottom: 20px;
+  background: rgb(255, 95, 95);
+
 }
 
 #dropmenu1 {
+  float: left;
   display: none;
-  margin-top: 16px;
   background: burlywood;
-  /* height: 100px; */
   width: 200px;
 }
 
 #dropmenu2 {
   display: none;
-  margin-top: 16px;
   background: burlywood;
-  /* height: 100px; */
   width: 200px;
 }
 
 #dropmenu3 {
   display: none;
-  margin-top: 16px;
   background: burlywood;
-  /* height: 100px; */
   width: 200px;
 }
 
-.main {
+.drops {
   position:absolute;
 }
