@@ -15,5 +15,13 @@
 //   });
 // });
 $(document).ready(function(){
-  $('.slider').slick();
+  $('.slider').slick({
+    dots:true,
+    arrows: true,
+    infinite: true,
+    slidesToshow: 1,
+    centerMode: true,
+    cenerPadding: '100px',
+    autoplay: true,
+  });
 });

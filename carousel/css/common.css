@@ -1,9 +1,13 @@
-.slick-slider .slick-track, .slick-slider .slick-list{
-  background: #fff;
+.slider{
+  margin: 100px auto;
+  width: 80%;
 }
-.slick-initialized .slick-slide{
-  opacity: 0.6; /* 両サイドの画像を透過 */
+.slider img{
+  height: auto;
+  width: 100%;
 }
-.slick-initialized .slick-slide.slick-active{
-  opacity: 1; /* センター画像を非透過 */
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
 }
